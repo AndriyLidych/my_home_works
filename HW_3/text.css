@@ -1,3 +1,6 @@
+html{
+    background-color: rgb(218, 214, 214);
+}
 .Accept_cooc{
     display: flex;
     justify-content: flex-start;
@@ -88,7 +91,7 @@ button{margin: 0;}
     margin-top: 72px;
     height: 72px;
     width: 560px;
-    background: #ffffff;
+    background: #ffffff9c;
     box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15),
       0px 0px 1px rgba(96, 96, 96, 0.1);
     border-radius: 16px;
@@ -154,12 +157,273 @@ button{margin: 0;}
     align-items: center;
     margin-top: 24px;
     width: 560px;
-    height: 65px;
+    height: 64px;
     background-color: #26262B;
-
+    border-radius:10px;
+    
 }
-.text{
-  
+    
 
 
+.text2{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    width: 469px;
+    height: 40px;
+ 
+}
+.button_3{
+    margin-left: 10px;
+    border-radius: 8px;
+    width: 49px;
+    height: 28px;
+}
+
+
+
+
+.banner-5{
+    position: relative;
+    width: 360px;
+    height: 206px;
+    left: 0px;
+    top: 40px;
+    background: rgba(28, 37, 64, 0.95);
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
+    border-radius: 6px;
+}
+.cookie{
+    padding:24px;
+}
+.text-5{
+    width: 312px;
+    height: 80px;
+    left: 24px;
+    top: 54px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color:white;
+    position: absolute;
+}
+.text5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color:white;
+    position: absolute;
+    width: 160px;
+    height: 16px;
+    left: 24px;
+    top: 158px;
+}
+.butt-5{
+    position: absolute;
+    width: 85px;
+    height: 32px;
+    left: 251px;
+    top: 150px;
+    background-color: #09B3AF;
+    border-radius: 6px;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+}
+.butt-5 p{
+    width: 45px;
+    height: 16px;
+    top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.banner-6{
+    position: relative;
+    width: 360px;
+    height: 170px;
+    left: 400px;
+    top: 0px;
+    background: #FFFFFF;
+    margin: -150px 40px;
+    border-radius: 16px;
+}
+.logo6{
+    padding:16px;
+}
+.text-6{
+position:absolute;
+width: 328px;
+height: 60px;
+left: 16px;
+top: 46px;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 20px;
+color: #687F8C;
+}
+.butt-6{
+position: absolute;
+width: 160px;
+height: 32px;
+left: 16px;
+top: 122px;
+background: #EAF0F4;
+box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
+border-radius: 6px;
+}
+.butt-6 span{
+    position:absolute;
+    padding:8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    left:19px;
+    top:0px;
+    color:#687F8C;
+}
+.butt6{
+    position: absolute;
+    width: 160px;
+    height: 32px;
+    left: 184px;
+    top: 122px;
+    background: #40C1A7;
+    border-radius: 6px;
+    display:flex;
+    align-items: center;
+}
+.text6{
+    width: 144px;
+    height: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.banner7{
+    position: relative;
+    width: 265px;
+    height: 215px;
+    background-color: white;
+    padding: 32px;
+    border-radius: 20px;
+    margin: 208px 4px;
+    display: flex;
+    align-items: center;
+}
+.banner7 h1{
+    position: absolute;
+    width: 104px;
+    height: 48px;
+    left: 108px;
+    top: 15px;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    color: #15295A;
+}
+.banner7 p{
+    position: absolute;
+    width: 256px;
+    height: 72px;
+    left: 40px;
+    top: 80px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.butt-7{
+    position: absolute;
+    width: 121px;
+    height: 44px;
+    left: 99.5px;
+    top: 195px;
+    background: #4A7EFF;
+    border-radius: 43px;
+    cursor:pointer;
+}
+.butt-7 span{
+    width: 57px;
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.banner8{
+    position: relative;
+    width: 320px;
+    height: 137px;
+    left: 360px;
+    top: -400px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin: 0px 40px;
+}
+.banner8 p{
+position: absolute;
+width: 288px;
+height: 60px;
+left: 20px;
+top: 4px;
+font-family: Roboto;
+font-size: 15px;
+line-height: 20px;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+text-align: left;
+}
+.text8{
+    position: absolute;
+    width: 95px;
+    height: 17px;
+    left: 16px;
+    top: 96px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6666FF;
+}
+.butt8{
+position:absolute;
+padding: 8px;
+width: 48px;
+height: 17px;
+left: 241px;
+top: 89px;
+background: #6666FF;
+border-radius: 4px;
+display:flex;
+align-items: center;
+}
+.butt8 span{
+    position: absolute;
+    left:8px;
+    top:8px;
+    color:white;
+    align-items: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
 }
