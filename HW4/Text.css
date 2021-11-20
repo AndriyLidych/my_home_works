@@ -48,7 +48,7 @@
 }
 
 .f-pic {
-    position: relative;
+    position: absolute;
     z-index: 3;
     width: 445px;
     height: 311px;
@@ -75,3 +75,162 @@
     left: 691px;
     top: 116px;
 }
+.main_container{
+    width: 1440px;
+    height: 500px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textcontainer{
+    width: 445px;
+    height: 160px;
+    margin-top: 117px;
+    margin-bottom: 223px;
+    margin-left: 176px;  
+}
+h2 {
+    height: 107px;
+    width: 445px;
+    font-size: 36px;
+    font-weight: 600;
+}
+.text1 {
+    height: 64px;
+    width: 434px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+
+}
+p{
+    padding-bottom: 11px;
+}
+.form_main{
+    width: 540px;
+    height: 305px;
+    margin-top: 117px; 
+    margin-left: 165px ;
+    
+    
+}
+button {
+    background-color:#ED4C5C; 
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    }
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+.input>input  {
+    width: 255px;
+    height: 60px;
+    border-radius: 6px;
+    padding: 31px;
+
+}
+input{
+    height: 60px;
+    padding: 31px;
+    border-radius: 6px;
+    margin-top: 24px;  
+}
+select{
+    height: 60px;
+    padding-left: 31px;
+    border-radius: 6px;
+    margin-top: 24px;  
+
+}
+button{
+   width: 160px;
+   height: 50px; 
+   border-radius: 6px;
+   margin-top: 27px;
+   cursor: pointer;
+   color: #FFFFFF;
+
+}
+.footer{
+    width: 1440px;
+    height: 435px;
+    margin-top:45px ;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    background: #FAFAFA;
+
+}
+.Group4>span{
+    font-weight: 400;
+}
+.Group4{
+  width: 259px;
+  height: 264px;
+  margin-top: 85px;
+  margin-left: 161px;
+  margin-bottom: 86px;
+}
+.Group4>p{
+    padding-top: 33px;
+    padding-bottom: 141px;
+    width: 254px;
+    height: 54px;
+    font: weight 400px; 
+}
+.Group4>h3{
+    width: 65px;
+    height: 22px;
+    font-weight: 700;
+}
+.Group5{
+  width: 254px;
+  height: 164px;
+  margin-top: 85px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 186px;
+}
+.Group5>p{
+    padding-top: 28px;
+
+}
+.Group5>h3{
+    width: 67px;
+    height: 22px;
+}
+.Group6{
+  
+   margin-right: 166px;
+}
+.Group6>h3{
+    margin-top: 85px;
+
+}
+.Group6>p{
+    padding-top: 33px;
+
+}
+.Group7{
+   width: 96px;
+   height:22px; 
+   margin-top: 85px;
+}
+.Visa{
+    margin-top: 33px;
+}
+
+
+
+
+
+
+
+
