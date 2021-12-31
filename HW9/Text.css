@@ -204,7 +204,7 @@ body {
 @media (max-width: 720px) {
     .about{
         grid-template-columns: 1fr;
-        margin-top: 70%;
+        margin-top: 300px;
     }
     .section2text {
         padding: 54px 20px 22px 20px;
