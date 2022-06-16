@@ -1,6 +1,6 @@
 "use strict"
-//   1 завдання
-function getRandomArray(length, min, max)  {
+// 1 завдання
+function getRandomArray(length, min, max) {
     let arayRandom = Array(length);
     for (let i = 0; i < arayRandom.length; i++)  {
         arayRandom[i] = Math.floor(min + Math.random() * (max - min + 1))
@@ -18,7 +18,7 @@ function getAverage(...numbers) {
     for (let i = 0; i < integers.length; i++) {
        resulted = resulted + integers[i];
     }
-    return resulted / integers.length;
+    return Math.round(resulted / integers.length); 
  }
 
  console.log(getAverage(5, 3, 4,  5, 3, 4, 5));
