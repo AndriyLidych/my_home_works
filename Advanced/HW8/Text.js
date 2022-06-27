@@ -34,7 +34,7 @@ function getSubjects(studentObj) {
   return subjects;
 }
 function capitalizeFirstLetter(str) {
-  return str[0].toUpperCase() + str.slice(0);
+  return str[0].toUpperCase() + str.slice(1);
 }
 console.log('Список предметів:', getSubjects(students[0]));
 
