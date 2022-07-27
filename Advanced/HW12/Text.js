@@ -14,7 +14,7 @@ function playSoundKeyboard(e) {
        let remove = document.getElementById(key.dataset.key)
        if (audio.id !== remove.id) {
           remove.pause()
-          key.classList.remove('active')
+          key.classList.remove ('active')
        }
     })
     audio.play();   
