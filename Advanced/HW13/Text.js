@@ -17,9 +17,11 @@ async  function getRandomChinese(length) {
          resolved(console.log(chineseStr.join('')));
       }, length * 50);
    });
-   const x = await getRandomChinese(4);
+   //await getRandomChinese(4);
 }
 
-console.log(x)
+
+getRandomChinese(4);
+
 
   
