@@ -1,6 +1,6 @@
 function getRandomColor(value = 256) {
-    const randomColor = Math.floor(Math.random() * value);
-    return randomColor
+    const randomColor = Math.random() * value;
+    return randomColor;
 }
 
 function changeColor() {
@@ -9,10 +9,10 @@ function changeColor() {
     });
 }
 
-let timer = setTimeout(function run() {
+let timer = setTimeout(function time() {
     let i =changeColor();
     
-    timer = setTimeout(run, 1000);
+    timer = setTimeout(time, 1000);
   }, 1000);
 
 
