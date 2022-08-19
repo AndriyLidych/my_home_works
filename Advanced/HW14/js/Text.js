@@ -46,7 +46,7 @@ async function getPlanets() {
   const res = await fetch(urlPlanet).then((res) => res.json());
   const planetsArr = res.results;
   planetsArr.forEach((namePlanet) => {
-    planet += `<ol style="color: rgb(228, 28, 10)">${namePlanet.name}</0l>`;
+    planet += `<ul style="color: rgb(1, 43, 58)">${namePlanet.name}</ul>`;
   });
   infoSection.innerHTML = planet;
   stopLoader();

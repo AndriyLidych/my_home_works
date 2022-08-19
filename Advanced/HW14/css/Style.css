@@ -36,7 +36,7 @@ body {
   display: flex;
   gap: 20px;
   
-  border-radius: 15px;
+  
 }
 
 button {
@@ -45,7 +45,7 @@ button {
   
 
   border-radius: 15px;
-  text-shadow: 0px 0px 5px rgb( rgb(92, 92, 161))
+  
 }
 button:hover {
   background-position: 0;
@@ -54,10 +54,6 @@ button:hover {
 
 button:active {
  background-color:#0830f7; 
-}
-.btn {
-  border-color: rgb(237, 43, 9);
-  border-radius: 15px;
 }
 
 
